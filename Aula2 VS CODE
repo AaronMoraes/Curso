@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Moraes</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('Qual seu nome?')
+        alert("Olá! " + nome)
+    var nascimento = prompt("Qual o ano do seu nascimento " + nome + "?")
+    var anoatual = 2023
+   var nascimento = Number(nascimento)
+   alert('A sua idade é: ' + (anoatual-nascimento)) 
+   </script>
+</body>
+</html>
