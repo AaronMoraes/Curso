@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Moraes</title>
+</head>
+<body>
+    <script>
+        alert('Você esta usando a calculadora do Neymar Junior!')
+    var nome = prompt('Qual seu nome?')
+    alert(' Olá! ' + nome)
+   var numero1 = prompt(('Digite um numero ') + nome) 
+   var numero2 = prompt('Agora digite outro numero')
+   var numero1 = parseInt(numero1)
+   var numero2 = parseInt(numero2)
+   alert ('A soma dos numeros é: ' + (numero1+numero2)) 
+   alert ('Obrigado por usar a calculadora do Neymar Junior! ♡♡ ')
+   
+   
+  
+
+   
+
+   
+         </script>
+
+<p><img src="https://wp.pt.aleteia.org/wp-content/uploads/sites/5/2016/08/neymar-100-jesus.jpg" alt="" height="80%" width="80%"></p>
+</body>
+</html>
