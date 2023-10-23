@@ -7,31 +7,35 @@
 </head>
 <body>
     <script>        
-prompt("Escolha sua operação desejada: ")
-var numero1 = prompt("Escolha um numero: ")
-var numero2 = prompt("Escolha outro numero: ")
-var numero1 = parseInt(numero1)
-var numero2 = parseInt(numero2)
+var escolha=prompt("Escolha sua operação desejada: ")
+var numero1=prompt("Escolha um numero: ")
+var numero2=prompt("Escolha outro numero: ")
+var numero1=parseInt(numero1)
+var numero2=parseInt(numero2)
 var adição 
 var divisão
 var subtração
 var multiplicação
-if(adição=numero1+numero2){
+if(escolha=="soma"){
     alert(numero1+numero2)
-    
-}else if(subtração=numero1-numero2){
+}else if(escolha=="subtração"){
     alert(numero1-numero2)
-
-}else if(divisão=numero1/numero2){
+}else if(escolha=="divisão"){
     alert(numero1/numero2)
-
-}else if(multiplicação=numero1*numero2){
+}else if(escolha=="multiplicação"){    
     alert(numero1*numero2)
 
-}else("Algo deu errado! ")
+}else{
+
+}
 
 
 
+
+
+    </script>
+</body>
+</html>
 
 
     </script>
