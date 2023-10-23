@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>        
+prompt("Escolha sua operação desejada: ")
+var numero1 = prompt("Escolha um numero: ")
+var numero2 = prompt("Escolha outro numero: ")
+var numero1 = parseInt(numero1)
+var numero2 = parseInt(numero2)
+var adição 
+var divisão
+var subtração
+var multiplicação
+if(adição=numero1+numero2){
+    alert(numero1+numero2)
+    
+}else if(subtração=numero1-numero2){
+    alert(numero1-numero2)
+
+}else if(divisão=numero1/numero2){
+    alert(numero1/numero2)
+
+}else if(multiplicação=numero1*numero2){
+    alert(numero1*numero2)
+
+}else("Algo deu errado! ")
+
+
+
+
+
+    </script>
+</body>
+</html>
