@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>       
+var usuariodb = prompt('Cadastre seu Úsuario')
+var senhadb = prompt('Cadastre sua senha')
+    var usuario = prompt("Digite sua Úsuario Cadastrada: ")
+    var senha = prompt("Digite seu Senha Cadastrado: ")
+if (usuario==usuariodb && senha==senhadb){   
+alert("Login Liberado!")
+}else{
+
+alert("Erro no Login")
+}
+</script>
+</body>
+</html>
