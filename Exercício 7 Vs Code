@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var cardapio = prompt("Escolha um dos pratos do menu: \n1º - Macarrão e Almondegas \n2º - Rizotto de Camarão \n3º - Strognoff \n4º - Feijoada \n5º - Acarajé ")
+switch(cardapio){
+case "1": 
+alert("Um prato gourmet de macarrão com almôndegas apresenta uma combinação requintada de massa fresca, almôndegas suculentas e um molho de tomate artesanal")
+break
+case "2":
+    alert("Um prato gourmet de risoto de camarão é uma explosão de sabores marinhos. O arroz carnaroli é cozido em caldo de peixe e vinho branco, enriquecido com camarões suculentos, finalizado com manteiga")
+break
+    case "3":
+    alert("Um prato gourmet de strogonoff é uma versão refinada do clássico. Carne macia, geralmente filé mignon, é cozida em um molho de creme de leite fresco, mostarda de Dijon, cogumelos selvagens e conhaque, resultando em uma mistura aveludada e saborosa.")
+break
+    case "4":
+    alert("Uma feijoada gourmet apresenta ingredientes premium, como carne de porco de alta qualidade, linguiça artesanal e feijão preto cuidadosamente selecionado. O prato é enriquecido com ervas frescas, temperos refinados e acompanhamentos sofisticados, como couve crocante e farofa de castanhas, resultando em uma versão requintada e saborosa do clássico brasileiro.")
+break
+    case "5":
+    alert("Um acarajé gourmet é uma interpretação sofisticada do prato tradicional. Bolinhos de feijão-fradinho fritos em azeite de dendê são recheados com camarões suculentos e acompanhados de um molho de pimenta fresco e vinagrete, criando uma explosão de sabores e texturas, com toques contemporâneos e sofisticados.")
+break
+}
+</script>
+</body>
+</html>
