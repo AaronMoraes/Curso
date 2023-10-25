@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var hms = prompt("Escolha uma das 3 opções: \n1º - Horas \n2º - Minutos \n3º - Segundos ")
+var valordaunidade = prompt("Agora escolha um valor nessa unidade:")
+var valordaunidade = parseInt(valordaunidade)
+var horas
+var minutos
+var segundos
+switch(hms){
+    case "1":
+        horas = valordaunidade
+        minutos = valordaunidade*60
+        segundos = valordaunidade*3600
+     break
+     case "2":
+        minutos = valordaunidade
+        horas = valordaunidade/60
+        segundos = valordaunidade*60
+        break
+    case "3":
+        segundos = valordaunidade
+        minutos = valordaunidade/60
+        horas = valordaunidade/3600
+}
+alert("Horas: " + horas + " \n Minutos:" + minutos + " \n Segundos: " + segundos)
+</script>
+</body>
+</html>
