@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var ds = prompt("Escolha um numero de 1 a 7: ")
+switch(ds){
+    case "2":
+     alert("Segunda")
+     break
+    case "3":
+    alert("Terça")
+    break  
+    case "4":
+     alert("Quarta")
+     break
+    case "5":
+    alert("Quinta")
+    break
+    case "6":
+    alert("Sexta")
+    break
+    case "7":
+    alert("Sabado")
+    break
+    case "1":
+    alert("Domingo")
+    break
+}# Curso
