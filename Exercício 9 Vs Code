@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var der = prompt("Escolha uma das 3 moedas: \n1º - Dólar \n2º - Euro \n3º - Real ")
+var valordaunidade = prompt("Agora escolha um valor nessa unidade de moeda:")
+var valordaunidade = parseInt(valordaunidade)
+var dolar
+var euro
+var real
+switch(der){
+    case "1":
+        dolar = valordaunidade
+        euro = valordaunidade*0.95
+        real = valordaunidade*5
+     break
+     case "2":
+        euro = valordaunidade
+        dolar = valordaunidade*1
+        real = valordaunidade*5.30
+        break
+    case "3":
+        real = valordaunidade
+        dolar= valordaunidade*0.20
+        euro = valordaunidade*0.19
+}
+
+alert("Dolar: " + dolar + " \n Euros:" + euro + " \n Real: " + real)
+
+
+
+
+</script>
+</body>
+</html>
